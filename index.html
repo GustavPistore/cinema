@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cinema</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <h1>compra de ingressos</h1>
@@ -17,8 +19,8 @@
                 <div class="info">
                     <p>Diário de uma paixão - R$ 20</p>
                     Quantidade:
-                    <input type="number" value="0" min="0">
-                    <p>Subtotal: R$ 0</p>
+                    <input type="number" value="0" min="0" id="input1">
+                    <p id="subtotal1">Subtotal: R$ 0</p>
                 </div>
             </div>
 
@@ -27,8 +29,8 @@
                 <div class="info">
                     <p>Cães de caça - R$ 25</p>
                     Quantidade:
-                    <input type="number" value="0" min="0">
-                    <p>Subtotal: R$ 0</p>
+                    <input type="number" value="0" min="0" id="input2">
+                    <p id="subtotal2">Subtotal: R$ 0</p>
                 </div>
             </div>
 
@@ -37,8 +39,8 @@
                 <div class="info">
                     <p>Demon slayer - R$ 30</p>
                     Quantidade:
-                    <input type="number" value="0" min="0">
-                    <p>Subtotal: R$ 0</p>
+                    <input type="number" value="0" min="0" id="input3">
+                    <p id="subtotal3">Subtotal: R$ 0</p>
                 </div>
             </div>
 
@@ -46,9 +48,9 @@
 
         <hr>
 
-        <h2>total: R$ 0</h2>
-
-        <button>Finalizar compra</button>
+        <h2 id="total">total: R$ 0,00</h2>
+        <button id="finalizar">Finalizar compra</button>
+        <script src="script.js"></script>
     </div>
 </body>
 </html>
