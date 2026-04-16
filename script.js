@@ -6,6 +6,7 @@ const subtotal2 = document.getElementById('subtotal2')
 const subtotal3 = document.getElementById('subtotal3')
 const total = document.getElementById("total")
 const finalizar = document.getElementById("finalizar")
+let totall
 input1.addEventListener('input', () => {
     subtotal1.innerText = `Subtotal: R$${input1.value * 20},00`
     totall = input1.value * 20 + input2.value * 25 + input3.value * 30
